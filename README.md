@@ -3,6 +3,8 @@ Methods for Sampling from the Zero Inflated Bayesian Multi-Study Non-negative Ma
 
 # Example:
 ## Generate Data
+
+```{r example, echo = TRUE, results = TRUE, tidy = TRUE}
 S <- 3
 P <- 20
 K <- 5
@@ -14,3 +16,4 @@ M_s <- lapply(1:S, function(s) matrix(rpois(N_s[s]*P, W %*% H_s[[s]], nrow=K, nc
 
 ## Perform Gibss Sampling
 gibbs_zinmf(M_s=M_s, K=5)
+```
