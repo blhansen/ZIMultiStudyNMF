@@ -1,0 +1,12 @@
+Package: ZIMSNMF
+Type: Package
+Title: Methods for Zero-Inflated Multi-Study NMF
+Version: 0.1.0
+Author: Blake Hansen
+Maintainer: Blake Hansen <blake_hansen@brown.edu>
+Description: Methods to estimate the ZI Multi-Study NMF via Gibbs sampling.
+License: GPL (>= 2)
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: R (>= 4.3.0)
+Imports: LaplacesDemon, abind, progress, truncnorm
