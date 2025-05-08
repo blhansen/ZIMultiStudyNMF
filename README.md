@@ -1,8 +1,14 @@
 # ZIMultiStudyNMF
 Methods for Sampling from the Zero Inflated Bayesian Multi-Study Non-negative Matrix Factorization model
 
-# Example with simulated data:
+# Installation
+Installation can be done via devtools:
+```{r installation, echo = TRUE, results = TRUE, tidy = TRUE}
+devtools::install_github('blhansen/ZIMultiStudyNMF')
+library(ZIMSNMF)
+```
 
+# Example with simulated data:
 ```{r example, echo = TRUE, results = TRUE, tidy = TRUE}
 S <- 3
 P <- 20
